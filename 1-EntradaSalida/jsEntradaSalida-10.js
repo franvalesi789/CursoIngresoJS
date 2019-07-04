@@ -5,13 +5,13 @@ en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
 	var dinero;
-    var descuento;
+    var nuevoSueldo;
 
     dinero = document.getElementById("importe").value;
     dinero = parseInt(dinero);
 
-    descuento = dinero - (dinero * 25 / 100);
+    nuevoSueldo = dinero - (dinero * 25 / 100);
 
-    document.getElementById("resultado").value = descuento;
+    document.getElementById("resultado").value = nuevoSueldo;
 
 }
