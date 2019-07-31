@@ -29,7 +29,7 @@ function mostrar()
 		}
 		else { 
 			// este es el bloque de los ceros
-			contadorCeros++;
+			contadorCeros++; 
 
 		}
 
